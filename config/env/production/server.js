@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  url: env("https://murmuring-taiga-48784.herokuapp.com"),
+  url: env("MY_HEROKU_URL"),
 });
