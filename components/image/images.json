@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_image_images",
+  "info": {
+    "name": "Images",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Desc": {
+      "type": "string"
+    }
+  }
+}
