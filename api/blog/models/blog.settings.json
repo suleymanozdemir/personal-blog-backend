@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "blogs",
   "info": {
-    "name": "Blog"
+    "name": "Blog",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -29,11 +30,9 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Images": {
-      "type": "dynamiczone",
-      "components": [
-        "image.images"
-      ]
+    "slug": {
+      "type": "string",
+      "required": true
     }
   }
 }
