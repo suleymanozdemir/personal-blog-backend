@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_code_area_of_interests",
+  "info": {
+    "displayName": "Area of interest",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

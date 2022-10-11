@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "area_of_interests",
+  "info": {
+    "singularName": "area-of-interest",
+    "pluralName": "area-of-interests",
+    "displayName": "Area of Interest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "displayName": "Area of interest",
+      "type": "component",
+      "repeatable": false,
+      "component": "code.area-of-interest"
+    }
+  }
+}
